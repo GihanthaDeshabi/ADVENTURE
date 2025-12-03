@@ -8,9 +8,9 @@ import  Navbar  from '@/components/Navbar';
 export default function ContactPage() {
   return (
     <>
-    <Navbar/>
+   
     <main className="bg-[#e8e4df] min-h-screen">
-      
+       <Navbar/>
       <ContactSection />
       <OurTeamSection />
       <FaqSection />
